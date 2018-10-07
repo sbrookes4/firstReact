@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo1 {
+  animation: App-logo-spin1 infinite .8s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height:20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.whoa{
+  color:#00ff00;
+}
+
+
+@keyframes App-logo-spin1 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+
+  from {
+      height: 40vmin;
+  }
+  to {
+      height: 80vmin;
+  }
+
+}

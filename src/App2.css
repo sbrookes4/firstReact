@@ -1,0 +1,54 @@
+.App2 {
+  text-align: center;
+}
+
+.App-logo2 {
+  animation: App-logo-spin2 infinite 5s linear;
+  height: 40vmin;
+}
+
+.App-logo2a {
+  animation: App-logo-spin2a infinite 5s linear;
+  height: 40vmin;
+}
+
+.App-header2 {
+  background-color: #282c34;
+  min-height:20vh;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.whoa{
+  color:#00ff00;
+}
+
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+
+}
+
+@keyframes App-logo-spin2a {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
