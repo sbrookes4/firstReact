@@ -2,12 +2,15 @@
   "name": "gottastartsomewhere",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://sbrookes4.github.io/firstReact/",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d duild",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
